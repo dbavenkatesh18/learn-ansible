@@ -1,5 +1,5 @@
 - name: Sample222
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Ping
       ansible.builtin.ping:
