@@ -1,4 +1,4 @@
-- name: Sample22
+- name: Sample222
   hosts: all
   tasks:
     - name: Ping
