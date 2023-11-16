@@ -1,0 +1,6 @@
+- name: Sample22
+  hosts: all
+  tasks:
+    - name: Ping
+      ansible.builtin.ping:
+
