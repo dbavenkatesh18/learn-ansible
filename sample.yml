@@ -1,6 +1,6 @@
-- name: Sample222
-  hosts: localhost
+- name: ping playbook
+  hosts: 
   tasks:
-    - name: Ping
+    - name: Ping the servers
       ansible.builtin.ping:
 
